@@ -1,1 +1,4 @@
 package seeder
+
+func RunSeeder() {
+}

@@ -6,6 +6,8 @@ import (
 	"os"
 	"time"
 
+	"greet-chat-srv/entity"
+
 	"github.com/joho/godotenv"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
@@ -53,7 +55,7 @@ func InitDB() *gorm.DB {
 
 	// Migrate the schema
 	db.AutoMigrate(
-	// entity
+		&entity.Message{},
 	)
 
 	return db
