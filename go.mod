@@ -5,6 +5,7 @@ go 1.21.0
 require (
 	github.com/gorilla/websocket v1.5.1
 	github.com/greetinc/greet-middlewares v0.0.0-20240406035850-9a0dc3f0c73e
+	github.com/greetinc/greet-util v0.0.0-20240407025216-d1d61298aabe
 	github.com/joho/godotenv v1.5.1
 	github.com/labstack/echo/v4 v4.11.4
 	gorm.io/driver/postgres v1.5.7
@@ -16,7 +17,6 @@ require (
 	github.com/golang-jwt/jwt/v4 v4.5.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/greetinc/greet-auth-srv v0.0.0-20240406041837-07ec07f2d96c // indirect
-	github.com/greetinc/greet-util v0.0.0-20240407025216-d1d61298aabe // indirect
 	github.com/h2non/filetype v1.1.3 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20221227161230-091c0ba34f0a // indirect
